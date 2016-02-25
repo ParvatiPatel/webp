@@ -10,7 +10,7 @@ router.get('/aboutus', function(req, res, next) {
   res.render('aboutus', { title: 'About Us' });
 });
 
-router.get('/service', function(req, res, next) {
+router.get('/servicei', function(req, res, next) {
   res.render('service', { title: 'Service' });
 });
 
